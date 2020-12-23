@@ -1,3 +1,4 @@
+from BobRoss import BobRoss
 from BillWatterson import BillWatterson
 import pandas as pd
 
@@ -17,3 +18,5 @@ inventory_management_stats = MyDataShell('inventory.csv')
 print(inventory_management)
 print(inventory_management_stats)
 
+BillWatterson
+BobRoss
