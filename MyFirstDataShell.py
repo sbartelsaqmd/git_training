@@ -10,13 +10,13 @@ class MyDataShell:
         self.filepath = filepath
         self.data_as_csv = pd.read_csv('inventory.csv')
 
-    def get_status(self):
+    def get_stats(self):
         return self.data_as_csv.describe()
 
 inventory_management_stats = MyDataShell('inventory.csv')
 
 print(inventory_management)
-print(inventory_management_stats)
+print(inventory_management_stats.get_stats())
 
 BillWatterson
 BobRoss
